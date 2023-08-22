@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#E1ECC8;
+}
+
+header {
+    background-color:#A0C49D;
+    padding: 20px;
+}
+
+nav {
+    background-color:#C4D7B2;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    word-spacing: 25px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 10px;
+    word-spacing: 10px;
+    
+}
+.ayurvedic{
+    display:block;
+    background-size:cover;
+}
+.button-containear{
+    display:flex;
+}
+section {
+    padding: 20px;
+}
+.btn1{
+    padding:10px;
+    border-width:0px;
+    border-radius:10px;
+    margin:3px;
+}
+.button{
+    position: absolute; /* set button to an absolute position */
+    top: 50%; /* adjust the top position of the button */
+    left: 50%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: #007bff; /* set your desired background color */
+    color: #fff; /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    position: relative;
+    display: block;
+    background-size:cover;
+    width:100%
+}
+
+.container img {
+    display: block;
+    max-width: 100%;
+}*/
+
+.button {
+    position: relative;
+    top: 50px;
+    left: 25px;
+    /*transform: translate(-50%, -50%);*/
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bottom_center {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.button:first-child {
+    top: 25%;
+}
+.btn {
+    background-color: #2a5526;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    border-width:0px;
+    border-radius:10px;
+    margin:3px;
+  }
